@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113253276444",
+    "project_id": "azalea-lensa-soca",
+    "storage_bucket": "azalea-lensa-soca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113253276444:android:52c5254ba6898a8502b8d9",
+        "android_client_info": {
+          "package_name": "id.lensasoca.lumisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdmhDgrW_6bRZ4u2X5TI6aMri0jWvotGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
