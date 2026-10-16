@@ -1,0 +1,21 @@
+LENSA SOCA × LUMISA — PROYEK APK ANDROID GRATIS
+
+Isi paket ini adalah proyek Android WebView yang membungkus versi HTML terbaru yang sudah disetujui. Tujuannya menjaga tampilan dan fitur website semirip mungkin, termasuk penyimpanan browser dan unggah logo kuitansi.
+
+CARA PALING MUDAH MEMBUAT APK GRATIS (dengan GitHub Actions):
+1. Ekstrak ZIP ini.
+2. Masuk ke github.com dan buat akun gratis bila belum punya.
+3. Buat repository baru bernama lensa-soca-lumisa, pilih Public (agar Actions gratis dan mudah dipakai), lalu buat repository.
+4. Upload semua isi folder proyek ini ke repository (bukan folder luarnya saja). Pastikan file .github/workflows/build-apk.yml ikut terunggah.
+5. Buka tab Actions di repository. Jika diminta, aktifkan GitHub Actions.
+6. Pilih workflow “Build Lensa Soca Lumisa APK”, tekan Run workflow.
+7. Tunggu sampai proses selesai dengan tanda hijau. Buka hasil run, lalu di bagian Artifacts unduh “Lensa-Soca-Lumisa-APK”.
+8. Ekstrak ZIP hasil unduhan. File app-debug.apk ada di dalamnya. Pindahkan ke HP Android dan buka untuk memasang. Android mungkin meminta izin “Install unknown apps”; aktifkan hanya untuk aplikasi/file manager yang digunakan memasang APK.
+
+CATATAN:
+- Semua proses di atas dapat dilakukan gratis; tidak perlu Google Play Console.
+- APK debug cocok untuk pemakaian pribadi/uji coba. Jika ingin dipublikasikan ke Play Store, perlu proses signing dan akun Play Console berbayar.
+- HTML dimuat dari dalam aplikasi, jadi tidak perlu hosting website untuk menjalankan tampilan inti. Font Google yang diimpor dari internet memerlukan koneksi agar dapat dimuat.
+- Data aplikasi tersimpan secara lokal di perangkat. Jangan hapus data aplikasi jika ingin mempertahankan data. Data tidak otomatis tersinkron antarperangkat.
+- Pengingat kalender di HTML merupakan pengingat dalam aplikasi; notifikasi sistem saat aplikasi tertutup belum dijamin oleh pembungkus WebView ini.
+- Silakan uji semua menu di HP setelah membuat APK. Karena Android WebView berbeda-beda antarperangkat, beberapa fitur perlu dites.
