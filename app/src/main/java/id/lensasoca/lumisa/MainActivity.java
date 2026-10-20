@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
             }
         });
         if (savedInstanceState != null) webView.restoreState(savedInstanceState);
-        else webView.loadUrl("file:///android_asset/index-firebase.html");
+        else webView.loadUrl("file:///android_asset/index.html");
     }
 
     @Override
